@@ -25,7 +25,7 @@ public class Exo8 {
 	        	if(delta > 0) {
 	        		x1 = (-b-Math.sqrt(delta))/(2*a);
 	                x2 = (-b+Math.sqrt(delta))/(2*a);
-	              System.out.println("\n\nLes racines sont x1 = " + x1 + " et x2 = " +x2);
+	              System.out.println("Les racines sont x1 = " + x1 + " et x2 = " +x2);
 
 	        	}
 	        	if(delta < 0) {

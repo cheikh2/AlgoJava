@@ -1,0 +1,33 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f967c1a7381, pid=7377, tid=7379
+#
+# JRE version: OpenJDK Runtime Environment (14.0.1+7) (build 14.0.1+7-Ubuntu-1ubuntu118.04.1)
+# Java VM: OpenJDK 64-Bit Server VM (14.0.1+7-Ubuntu-1ubuntu118.04.1, mixed mode, sharing, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libjimage.so+0x2381]
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport %p %s %c %d %P %E" (or dumping to /home/cheikh/Bureau/AlgoJava/core.7377)
+#
+# If you would like to submit a bug report, please visit:
+#   Unknown
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:44447 -javaagent:/home/cheikh/eclipse/java-2020-03/eclipse/configuration/org.eclipse.osgi/217/0/.cp/lib/javaagent-shaded.jar -Dfile.encoding=UTF-8 --module-path=/home/cheikh/Bureau/AlgoJava/bin -Djdk.module.main=AlgoJava AlgoJava/cheikh.algo.Exo21
+
+Host: Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz, 4 cores, 5G, Ubuntu 18.04.4 LTS
+Time: Wed May 20 17:18:09 2020 GMT elapsed time: 24074 seconds (0d 6h 41m 14s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f967801a000):  JavaThread "main" [_thread_in_vm, id=7379, stack(0x00007f967eee2000,0x00007f967efe3000)]
+
+Stack: [0x00007f967eee2000,0x00007f967efe3000],  sp=0x00007f967efe0170,  free space=1016k
+Native frames: (J=compiled Java code, A=aot compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [libjimage.so+0x2381]
+C  [libjimage.so+0x2eca]
+C  [libjimage.so+0x3395]  JIMAGE_FindResource+0xd5
+V  [libjvm.so+0x5203d3]
