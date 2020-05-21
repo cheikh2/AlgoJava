@@ -24,15 +24,26 @@ public class Exo9questB {
 				ma = scan.nextInt();
 				}
 				while((ha <= 0 || ha >=  24) || (ma <= 0 || ma >= 60));
-			
-			if (ma > md) {
-		        dha = ha-hd+24;
-		        dma = ma - md;
+			if(ha>hd) {
+				if (ma > md) {
+					dha = ha-hd;
+					dma = ma - md;
+					}
+				else 	{
+					dha = ha-hd-1;
+					dma = ma + 60 - md;
+		        	}
 			}
-		    else {
-		        dha = ha-hd+24-1;
-		        dma = ma + 60 - md;
-		        }
+			else {
+				if (ma > md) {
+					dha = ha-hd+24;
+					dma = ma - md;
+					}
+				else {
+					dha = ha-hd+24-1;
+					dma = ma + 60 - md;
+		        	}
+			}
 			System.out.println("la durée du vol est : "+dha+" heures et "+dma+" minutes ");
 	}
 
