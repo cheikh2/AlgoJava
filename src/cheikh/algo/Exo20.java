@@ -14,8 +14,8 @@ public class Exo20 {
 		PG = valeur;
 		iPG = 1;
 		
-		for(indice=2; indice<=valeur; indice++) {
-			System.out.println("entrer une valeur "+indice+"eme");
+		for(indice=2; indice<=10; indice++) {
+			System.out.println("entrer la "+indice+"eme valeur");
 			valeur=scan.nextInt();
 			
 			if(valeur > PG) {

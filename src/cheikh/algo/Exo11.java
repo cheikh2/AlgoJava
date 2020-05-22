@@ -32,6 +32,11 @@ public class Exo11 {
 			if(operateur =='*') {
 				System.out.println(a*b);
 			}
+			if(operateur =='/' && b!=0) {
+				System.out.println((float)a/b);
+			}else {
+				System.out.println("Opération impossible");
+			}
 			
 		}
 

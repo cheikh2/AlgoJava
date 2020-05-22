@@ -16,19 +16,13 @@ public class Exo10 {
 			C = scan.nextInt();
 			
 			
-			if(A > B && A>C && B>C) {
+			if(A > B && B>C) {
 				System.out.println("Les valeurs A , B et C sont (dans l’ordre):"+ A+" "+B+" "+C);		
 			}
-			else {
-				System.out.println("Les valeurs A , B et C sont (dans l’ordre):"+ A+" "+C+" "+B);
-			}
-			if(B>A && B>C && A>C) {
+			if(B>A && A>C) {
 				System.out.println("Les valeurs A , B et C sont (dans l’ordre):"+ B+" "+A+" "+C);
 			}
-			else {
-				System.out.println("Les valeurs A , B et C sont (dans l’ordre):"+ B+" "+C+" "+C);
-			}
-			if(C>B && A<C && B>A) {
+			if(C>B && B>A) {
 				System.out.println("Les valeurs A , B et C sont (dans l’ordre):"+ C+" "+B+" "+A);
 			}
 			else {

@@ -8,7 +8,7 @@ public class Exo15 {
 		try(Scanner scan = new Scanner(System.in)){
 			int nombre, somme, i;
 			somme = 0;
-			System.out.println("entrer le nombre");
+			System.out.println("entrer le nombre : ");
 			nombre = scan.nextInt();
 			
 			for(i=1; i<=nombre; i++) {

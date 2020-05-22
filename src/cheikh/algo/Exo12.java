@@ -21,9 +21,9 @@ public class Exo12 {
 			}		
 		}
 		if(somme==valeur) {
-		System.out.println("\"le nombre :"+valeur+" est parfait");
+		System.out.println("le nombre :"+valeur+" est parfait");
 		}else {
-			System.out.println("\"le nombre :"+valeur+" n'est pas parfait");
+			System.out.println("le nombre :"+valeur+" n'est pas parfait");
 		}
 		}
 

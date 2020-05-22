@@ -29,7 +29,7 @@ public class Exo17 {
             b = resu;
             pgcd = a;
         	}
-        System.out.println("le pgcd de "+a+" et "+b+" est : "+ pgcd);
+        System.out.println("le pgcd de A et B est : "+ pgcd);
 		}
 	}
 
