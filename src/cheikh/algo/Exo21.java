@@ -15,11 +15,11 @@ public class Exo21 {
 			
 			do {		
 				if(B > A) {
-					System.out.println("Enter la valeur de B plus petit:");
+					System.out.println("Enter la valeur de B plus petit: ");
 					B=scan.nextInt();
 				}
 				if(B < A) {
-					System.out.println("Enter la valeur de B plus grand:");
+					System.out.println("Enter la valeur de B plus grand: ");
 					B=scan.nextInt();
 				}
 			}
